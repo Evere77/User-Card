@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+
+.user-card {
+    width: 100%;
+    background-color: white;
+    border: 2px soild #999;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.text-body {
+    padding: 20px;
+}
+
+.text-body h1,
+.text-body h3,
+.text-body p {
+    margin: 20px 0px;
+}
+
+.image-pic {
+    height: 170px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.locator {
+    height: 20px;
+    padding-right: 7px;
+}
+
+.gear {
+    height: 20px;
+    padding-right: 7px;
+}
+
+a {
+    color: #084a8d;
+}
